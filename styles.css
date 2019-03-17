@@ -1,0 +1,223 @@
+
+/* 
+2) Move Name to the left
+6) make columns responsive
+8) config JS
+
+*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* add padding and make font weight heavier */
+
+nav {
+  background-color: #75e2e6;
+  border-bottom: 2px solid #048eaa;
+  height: 60px;
+}
+
+#dogicon {
+ width: 50px;
+ height: 50px;
+ padding: 5px 5px 5px 5px; 
+}
+
+ul {
+  float: right;
+  padding-right: 25px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 10px;
+  height: 10%;
+}
+
+.banner-image {
+  background: no-repeat center/100% url(images/park.jpg);
+  background-color: grey;
+  background-blend-mode: multiply; /*review this*/
+  text-align: center;
+  background-size: cover;
+  background-position: bottom center;
+  padding: 2em 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.banner-text-standard {
+  font-weight: 400;
+}
+
+.banner-text-bold {
+  font-weight: 700;
+}
+
+.banner-content {
+  display: inline-block;
+  padding-top: 10px; /*review this*/
+  color: #ffffff;
+  /*width: 30%;*/
+  text-align: center;
+ } 
+
+/*
+ .banner-content > * {
+  display:;
+ } */
+
+#dog1 {
+  border-radius: 200px;
+  width: 200px;
+  border: 4px solid #048eaa;
+  text-align: center;
+}
+
+.name-label-container {
+
+}
+
+p.name-label {
+text-align: left;
+}
+
+.dog-name-text p {
+  color: #ffffff;
+  text-align: left;
+}
+
+.dog-name-input {
+  height: 40px;
+  width: 325px;
+  padding: 0;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.buttonheader {
+  height: 40px;
+  width: 325px;
+  background-color: #75e2e6;
+  color: black;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+main {
+  /*height: 600px;*/
+  clear:  both;
+  width: 100%;
+}
+
+/*
+.woofer1, .woofer2, .woofer3 {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+*/
+
+/*thicker font weight*/
+
+.woofer1, .woofer2, .woofer3 {
+    /* float: left; */
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 50px;
+    width: 29%;
+    padding: 0 2%;
+    /* clear: both; */
+    display: inline-block;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.dog2, .dog3, .dog4 {
+  border-radius: 50%;
+  width: 50%;
+  border: 4px solid #048eaa;
+}
+
+/*thicker font weight*/
+
+.p1of3, .p2of3, .p3of3 {
+    text-align: left;
+    /* padding-left: 50px; */
+    height: 250px;
+    /* width: 275px; */
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+/*increase height for button*/
+
+button {
+    /* height: 50px; */
+    padding: 11px 0;
+    width: 100%;
+    background-color: #048eaa;
+    color: #ffffff;
+    font-size: 15px;
+    /* margin-bottom: 0; */
+    /* margin-left: 50px; */
+    /* padding-top: 50px; */
+    /* padding: 0; */
+    border: 0;
+
+}
+
+footer {
+  float: center;
+  background-color: #048eaa;
+  color: #ffffff;
+  height: 200px;
+  text-align: center;
+}
+
+.footer-text {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 840px){
+  .woofer1, .woofer2, .woofer3 {
+
+  }
+}
+
+@media screen and (max-width: 740px){
+  .woofer1, .woofer2, .woofer3 {
+
+  }
+}
+
+
+
+@media screen and (max-width: 500px){
+  .woofer1, .woofer2, .woofer3 {
+    width: 96%;
+    padding: 0 2%;
+  }
+}
+
