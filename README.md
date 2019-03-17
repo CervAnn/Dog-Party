@@ -1,5 +1,4 @@
 # dog-party
-Ann Cerveny's Dog Party Project
 
 Dog-Party<br />
 Ann Cerveny Dog-Party Project
